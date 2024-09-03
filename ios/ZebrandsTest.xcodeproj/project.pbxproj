@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ZebrandsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ZebrandsTestTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-ZebrandsTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ZebrandsTest.a */; };
+		132B52FBD337407D4CD4EDCB /* libPods-ZebrandsTest-ZebrandsTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F5D10028F0AB0F5A298764 /* libPods-ZebrandsTest-ZebrandsTestTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2715040A3AF9B1C9E9919A61 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 71B4662EAB6DADC240EBE1A7 /* PrivacyInfo.xcprivacy */; };
-		7699B88040F8A987B510C191 /* libPods-ZebrandsTest-ZebrandsTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ZebrandsTest-ZebrandsTestTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		1DDD7F68FAE3FE225136129E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D8BEB4E261DB482671C6A017 /* PrivacyInfo.xcprivacy */; };
+		D1B685702CE48F25785279C9 /* libPods-ZebrandsTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B5CC253ED7B56DB00CB707 /* libPods-ZebrandsTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,14 +36,15 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ZebrandsTest/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ZebrandsTest/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ZebrandsTest/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ZebrandsTest-ZebrandsTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZebrandsTest-ZebrandsTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-ZebrandsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebrandsTest.debug.xcconfig"; path = "Target Support Files/Pods-ZebrandsTest/Pods-ZebrandsTest.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-ZebrandsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebrandsTest.release.xcconfig"; path = "Target Support Files/Pods-ZebrandsTest/Pods-ZebrandsTest.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-ZebrandsTest-ZebrandsTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebrandsTest-ZebrandsTestTests.debug.xcconfig"; path = "Target Support Files/Pods-ZebrandsTest-ZebrandsTestTests/Pods-ZebrandsTest-ZebrandsTestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-ZebrandsTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZebrandsTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71B4662EAB6DADC240EBE1A7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = ZebrandsTest/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1851101E7DC0C6B436E144EB /* Pods-ZebrandsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebrandsTest.release.xcconfig"; path = "Target Support Files/Pods-ZebrandsTest/Pods-ZebrandsTest.release.xcconfig"; sourceTree = "<group>"; };
+		20FD5C1B71DCC3E6A884A812 /* Pods-ZebrandsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebrandsTest.debug.xcconfig"; path = "Target Support Files/Pods-ZebrandsTest/Pods-ZebrandsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		53B5CC253ED7B56DB00CB707 /* libPods-ZebrandsTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZebrandsTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F5D10028F0AB0F5A298764 /* libPods-ZebrandsTest-ZebrandsTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZebrandsTest-ZebrandsTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B4662EAB6DADC240EBE1A7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = ZebrandsTest/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ZebrandsTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-ZebrandsTest-ZebrandsTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebrandsTest-ZebrandsTestTests.release.xcconfig"; path = "Target Support Files/Pods-ZebrandsTest-ZebrandsTestTests/Pods-ZebrandsTest-ZebrandsTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACF752B374E714F5EE0F7EC7 /* Pods-ZebrandsTest-ZebrandsTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebrandsTest-ZebrandsTestTests.debug.xcconfig"; path = "Target Support Files/Pods-ZebrandsTest-ZebrandsTestTests/Pods-ZebrandsTest-ZebrandsTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8BEB4E261DB482671C6A017 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = ZebrandsTest/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DA9083A8F190EA060517B2EB /* Pods-ZebrandsTest-ZebrandsTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebrandsTest-ZebrandsTestTests.release.xcconfig"; path = "Target Support Files/Pods-ZebrandsTest-ZebrandsTestTests/Pods-ZebrandsTest-ZebrandsTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -54,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-ZebrandsTest-ZebrandsTestTests.a in Frameworks */,
+				132B52FBD337407D4CD4EDCB /* libPods-ZebrandsTest-ZebrandsTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-ZebrandsTest.a in Frameworks */,
+				D1B685702CE48F25785279C9 /* libPods-ZebrandsTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +96,7 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				71B4662EAB6DADC240EBE1A7 /* PrivacyInfo.xcprivacy */,
+				D8BEB4E261DB482671C6A017 /* PrivacyInfo.xcprivacy */,
 			);
 			name = ZebrandsTest;
 			sourceTree = "<group>";
@@ -105,8 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-ZebrandsTest.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-ZebrandsTest-ZebrandsTestTests.a */,
+				53B5CC253ED7B56DB00CB707 /* libPods-ZebrandsTest.a */,
+				63F5D10028F0AB0F5A298764 /* libPods-ZebrandsTest-ZebrandsTestTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,10 +145,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-ZebrandsTest.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-ZebrandsTest.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-ZebrandsTest-ZebrandsTestTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-ZebrandsTest-ZebrandsTestTests.release.xcconfig */,
+				20FD5C1B71DCC3E6A884A812 /* Pods-ZebrandsTest.debug.xcconfig */,
+				1851101E7DC0C6B436E144EB /* Pods-ZebrandsTest.release.xcconfig */,
+				ACF752B374E714F5EE0F7EC7 /* Pods-ZebrandsTest-ZebrandsTestTests.debug.xcconfig */,
+				DA9083A8F190EA060517B2EB /* Pods-ZebrandsTest-ZebrandsTestTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -160,12 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ZebrandsTestTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				A9E4659E72AB5FF487E68DCF /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				1769B9FDFE1F690561898242 /* [CP] Embed Pods Frameworks */,
+				1C7B56344F4A1B27045C9A60 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,13 +181,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ZebrandsTest" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				A6132200FE91F1300A854CFD /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
-				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				0E7575CF20F42BDECC93DEF1 /* Resources */,
+				A4500B41DCD8F30DF24B6C65 /* [CP] Embed Pods Frameworks */,
+				2F31028797B792FE703F142F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,13 +242,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+		0E7575CF20F42BDECC93DEF1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				2715040A3AF9B1C9E9919A61 /* PrivacyInfo.xcprivacy in Resources */,
+				1DDD7F68FAE3FE225136129E /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +269,58 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		1769B9FDFE1F690561898242 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest-ZebrandsTestTests/Pods-ZebrandsTest-ZebrandsTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest-ZebrandsTestTests/Pods-ZebrandsTest-ZebrandsTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest-ZebrandsTestTests/Pods-ZebrandsTest-ZebrandsTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C7B56344F4A1B27045C9A60 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest-ZebrandsTestTests/Pods-ZebrandsTest-ZebrandsTestTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest-ZebrandsTestTests/Pods-ZebrandsTest-ZebrandsTestTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest-ZebrandsTestTests/Pods-ZebrandsTest-ZebrandsTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F31028797B792FE703F142F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest/Pods-ZebrandsTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest/Pods-ZebrandsTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest/Pods-ZebrandsTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4500B41DCD8F30DF24B6C65 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,29 +337,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest/Pods-ZebrandsTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZebrandsTest-ZebrandsTestTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		A6132200FE91F1300A854CFD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -332,55 +359,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		A9E4659E72AB5FF487E68DCF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest-ZebrandsTestTests/Pods-ZebrandsTest-ZebrandsTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest-ZebrandsTestTests/Pods-ZebrandsTest-ZebrandsTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZebrandsTest-ZebrandsTestTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest-ZebrandsTestTests/Pods-ZebrandsTest-ZebrandsTestTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest/Pods-ZebrandsTest-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest/Pods-ZebrandsTest-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest/Pods-ZebrandsTest-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest-ZebrandsTestTests/Pods-ZebrandsTest-ZebrandsTestTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest-ZebrandsTestTests/Pods-ZebrandsTest-ZebrandsTestTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZebrandsTest-ZebrandsTestTests/Pods-ZebrandsTest-ZebrandsTestTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -416,7 +414,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-ZebrandsTest-ZebrandsTestTests.debug.xcconfig */;
+			baseConfigurationReference = ACF752B374E714F5EE0F7EC7 /* Pods-ZebrandsTest-ZebrandsTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -443,7 +441,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-ZebrandsTest-ZebrandsTestTests.release.xcconfig */;
+			baseConfigurationReference = DA9083A8F190EA060517B2EB /* Pods-ZebrandsTest-ZebrandsTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -467,11 +465,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-ZebrandsTest.debug.xcconfig */;
+			baseConfigurationReference = 20FD5C1B71DCC3E6A884A812 /* Pods-ZebrandsTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5N5572HZJ9;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ZebrandsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -494,11 +493,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-ZebrandsTest.release.xcconfig */;
+			baseConfigurationReference = 1851101E7DC0C6B436E144EB /* Pods-ZebrandsTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5N5572HZJ9;
 				INFOPLIST_FILE = ZebrandsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
