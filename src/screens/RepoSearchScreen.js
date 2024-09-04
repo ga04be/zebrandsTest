@@ -31,7 +31,7 @@ const RepoSearchScreen = () => {
           Please enter a search query to find repositories.
         </Text>
       )}
-      {!loading && hasSearched && users.length === 0 && (
+      {!loading && hasSearched && repos.length === 0 && (
         <Text style={styles.message}>
           No repositories found. Please try a different search.
         </Text>
